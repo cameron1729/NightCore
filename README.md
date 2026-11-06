@@ -31,12 +31,11 @@ Bootstrap logs `NightCore.Version` and the Lua version through the engine's `Tra
 For local theme development, symlink `00.00 NightCore.lua` to this checkout's
 `NightCore.lua`. Edits take effect on the next script reload. Keep the link out of
 theme commits and bundle a regular copy when committing the theme integration.
-Exclude the link locally. GrooveNights' tracked `!*` rule overrides `.git/info/exclude`,
-so its local `Scripts/.gitignore` ignores both the link and itself:
+Exclude the untracked link through the theme repository's `.git/info/exclude`.
+For GrooveNights, add:
 
 ```gitignore
-/.gitignore
-/00.00 NightCore.lua
+/Themes/GrooveNights/Scripts/00.00 NightCore.lua
 ```
 
 ## Development and releases
