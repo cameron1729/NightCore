@@ -35,7 +35,7 @@ Exclude the untracked link through the theme repository's `.git/info/exclude`.
 For GrooveNights, add:
 
 ```gitignore
-/Themes/GrooveNights/Scripts/00.00 NightCore.lua
+/Scripts/00.00 NightCore.lua
 ```
 
 ## Development and releases
