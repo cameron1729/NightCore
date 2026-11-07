@@ -38,6 +38,19 @@ For GrooveNights, add:
 /Scripts/00.00 NightCore.lua
 ```
 
+## Speedmod enums
+
+`NightCore.SpeedMods.Type` provides `X`, `C` and `M`.
+`NightCore.SpeedMods.RowType` provides `Basic`, `Advanced` and `Pro`.
+
+```lua
+local speedType = NightCore.SpeedMods.Type.C      -- "c-mod"
+local rowType = NightCore.SpeedMods.RowType.Pro    -- "pro"
+```
+
+These name modifier types and option-row styles; themes choose their available
+values and defaults.
+
 ## Development and releases
 
 Work directly on `main`; use a temporary branch when an experiment needs one.

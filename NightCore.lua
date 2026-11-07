@@ -3,6 +3,20 @@
 NightCore = {
     Version = "0.1.0-dev",
 
+    SpeedMods = {
+        Type = {
+            X = "x-mod",
+            C = "c-mod",
+            M = "m-mod",
+        },
+
+        RowType = {
+            Basic = "basic",
+            Advanced = "advanced",
+            Pro = "pro",
+        },
+    },
+
     addField = function(name, value)
         return { [name] = value }
     end,
